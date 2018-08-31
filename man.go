@@ -1,7 +1,9 @@
-package man
+package organism
 
 import "fmt"
 
-func Say(words string){
-fmt.Println(words)
+type Human = string
+
+func (h Human) Say(words string) {
+	fmt.Println(words)
 }

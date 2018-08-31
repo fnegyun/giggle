@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
+	"organism"
 )
 
 func main() {
-
-	fmt.Println("is in branch.")
+	var lee organism.Human
+	lee.Say("hello world.")
 }
